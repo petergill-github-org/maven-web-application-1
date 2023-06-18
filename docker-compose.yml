@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   mavenwebapp:
-    image: petergillhmg/maven-web-application
+    image: petergillhmg/maven-web-application:1
     restart: always
     ports:
     - 9090:8080
